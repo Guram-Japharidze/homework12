@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/4a837b89dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <!-- header -->
+        <header>
+            <a href="index.html"><img src="images/logo plant.svg" alt="" class="header_logo"></a>
+
+            <form name="HEADER_SEARCH" class="header_search">
+                <input type="search" placeholder="What are you looking for?" class="search_bar">
+                <a href=""><button class="search_button"><i class="fa-solid fa-magnifying-glass"></i></button></a>
+
+            </form>
+
+            <div class="header_buttons">
+                <a href=""> <button class="log_in">LOG IN</button></a>
+                <a href=""><button class="cart_logo"><i class="fa-solid fa-cart-shopping"></i></button></a>
+            </div>
+
+        </header>
+        <!-- nav -->
+        <nav class="main_nav">
+            <ul class="main_nav_ul">
+                <li><a href="index.html" class="no_active">HOME</a></li>
+                <li><a href="" class="no_active">ABOUT</a></li>
+                <li><a href="" class="no_active">SERVICES</a></li>
+                <li><a href="" class="no_active">PLANT CARE</a></li>
+                <li><a href="" class="active">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!-- section -->
+        <section>
+            <form name="CONTACT_US" class="contact_us">
+                <h2>CONTACT US</h2>
+                <!-- Name_email -->
+                <div class="text_mail_div">
+                    <input type="text" class="text_input" placeholder="Name" name="NAME">
+                    <input type="email" class="email_input" placeholder="Email" name="EMAIL">
+                </div>
+                <!-- select -->
+                <div class="select_div">
+                    <label for="select" class="main_label">Is your question about an existing order?</label>
+                    <select name="SELECT" id="select" class="select">
+                        <option value=""></option>
+                        <option value="YES" class="select_value">YES</option>
+                        <option value="NO" class="select_value">NO</option>
+                    </select>
+                </div>
+                <!-- radio -->
+                <div class="radio_main_div">
+                    <label for="" class="main_label">I have a delivery question about my order</label>
+
+                    <div class="radio_div">
+                        <input type="radio" id="Not_recieved" value="I did not receive my order" name="issues">
+                        <label for="Not_recieved" class="radio_labels">I did not receive my order</label>
+                    </div>
+
+                    <div class="radio_div">
+                        <input type="radio" id="Incorrect" value="My order is incorrect or arrived damaged"
+                            name="issues">
+                        <label for="Incorrect" class="radio_labels">My order is incorrect or arrived damaged</label>
+                    </div>
+
+                    <div class="radio_div">
+                        <input type="radio" id="Cancel" value="Cancel my order" name="issues">
+                        <label for="Cancel" class="radio_labels">Cancel my order</label>
+                    </div>
+
+                    <div class="radio_div">
+                        <input type="radio" id="Change_address" value="Change my shipping address" name="issues">
+                        <label for="Change_address" class="radio_labels">Change my shipping address</label>
+                    </div>
+
+                </div>
+                <!-- textarea -->
+                <div>
+                    <label for="description" class="main_label">Please provide more details below.</label>
+                    <textarea name="description" id="description" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <!-- checkbox -->
+                <div class="checkbox_div">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="main_label">I want to receive the newsletter </label>
+
+                </div>
+                <!-- submit -->
+                <input type="submit" value="SEND" class="submit">
+            </form>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="footer_div1">
+                <h3>Follow us</h3>
+                <nav>
+                    <ul class="div1_ul">
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb.svg" alt=""></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="images/inst.svg" alt=""></a>
+                        </li>
+                        <li><a href="https://twitter.com/" target="_blank"><img src="images/twt.svg" alt=""></a></li>
+                        <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/prts.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-div1">
+                <h3>Contact us</h3>
+                <nav>
+                    <ul class="div2_ul">
+                        <li><a href="https://www.google.com/maps/search/broadway+94+new+your/@40.79352,-73.9756351,16.67z?entry=ttu"
+                                target="_blank"><i class="fa-solid fa-location-dot contact_ul"></i></a>New York, 94
+                            Brodway</li>
+                        <li><a href="tel:+555 67 88 00" target="_blank"><i class="fa-solid fa-phone contact_ul"></i>
+                            </a>+555 67 88 00</li>
+                        <li><a href="mailto:plant@gmail.com" target="_blank"><i
+                                    class="fa-regular fa-envelope contact_ul"></i> </a>plant@gmail.com </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h4>Copyright © 2023 House Plant Shop.</h4>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
